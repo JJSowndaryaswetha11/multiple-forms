@@ -1,0 +1,55 @@
+body{
+ 
+  background-color: #8ec5fc37;
+  background-image: linear-gradient(62deg, #0e83f736 0%, #720dd1a8 100%);
+  height: 100vh;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  
+}
+
+.form-container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0fff0;
+  
+  
+}
+
+.personal-details {
+  border-bottom: 5px solid purple;
+  color: purple;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-section {
+  margin-bottom: 15px;
+}
+
+.heading {
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  
+}

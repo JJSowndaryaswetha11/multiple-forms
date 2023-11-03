@@ -1,0 +1,64 @@
+
+body{
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.parent-containers {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; 
+ 
+}
+
+.form-containers {
+  width: 400px;
+  
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0fff0;
+}
+.personal-detailss{
+  border-bottom: 5px solid purple;
+  color: purple;
+  
+}
+.personal-detailss h1 {
+  
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.input-fieldss {
+  width: 100%;
+}
+
+.name-sectionn {
+  margin-bottom: 15px;
+}
+
+.headings {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input-fields .MuiTextField-root {
+  width: calc(100% - 24px); 
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit-buttons {
+  width: 100px;
+}
+
+
